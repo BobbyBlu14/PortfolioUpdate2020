@@ -1,0 +1,160 @@
+/*!
+ * Bootstrap Grid v4.4.1 (https://getbootstrap.com/)
+ * Copyright 2011-2019 The Bootstrap Authors
+ * Copyright 2011-2019 Twitter, Inc.
+ * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
+ */
+ html {
+    box-sizing: border-box;
+    -ms-overflow-style: scroll;
+  }
+  
+  *,
+  *::before,
+  *::after {
+    box-sizing: inherit;
+  }
+  
+  .column {
+    float: left;
+    width: auto;
+  }
+  
+  
+  .container {
+position: relative;
+    width: auto;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .container2 {
+    position: absolute;
+        width: auto;
+        padding-right: 15px;
+        padding-left: 15px;
+        margin-right: auto;
+        margin-left: auto;
+  }
+  .bPic {
+    margin: 0px;
+
+  }
+
+.sidebar{
+
+float: right;
+
+}
+
+  .footer {
+ 
+    width: 100%;
+    background-color: rgb(23, 143, 255);
+    color: white;
+    text-align: center;
+  }
+
+  .footer2 {
+    position:sticky;
+    width: 100%;
+    background-color: rgb(23, 143, 255);
+    color: white;
+    text-align: center;
+  }
+  
+  .carousel-caption {
+    position: center;
+  border: 1px solid black;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  margin-right: 150px;
+  margin-left: 80px;
+  background-color: lightblue;
+}
+.myform {
+
+  margin-left: 30px;
+  
+}
+
+  #contact-formbox {
+    object-fit: contain;
+  }
+
+
+    .carousel-inner> .carouselItem > img {
+      widows: 640px;
+      height: 360px;
+    }
+/*  Social media icons*/
+    .icon-bar a:hover {
+      position: relative;
+      right: 50px;
+      background-color: #000;
+      vertical-align: absolute;
+      margin-left:20px;
+    }
+    
+    .facebook {
+      background: #3B5998;
+      color: white;
+    }
+    
+    .twitter {
+      background: #55ACEE;
+      color: white;
+    }
+    
+    .google {
+      background: #dd4b39;
+      color: white;
+    }
+    
+    .linkedin {
+      background: #007bb5;
+      color: white;
+    }
+    
+    .youtube {
+      background: #bb0000;
+      color: white;
+    }
+/*  Image gallery  Portfolio.html*/
+    .gallery {
+      margin: 5px;
+      border: 1px solid #ccc;
+      float: left;
+      width: 180px;
+    }
+    
+    .gallery:hover {
+      border: 1px solid #777;
+    }
+    
+    .gallery img {
+      width: 100%;
+      height: auto;
+    }
+    
+    .desc {
+      padding: 15px;
+      text-align: center;
+    }
+
+    #graphics{
+position:static;
+max-width: auto;
+    }
+    .picture {
+      background-size: contain;
+background-repeat: no-repeat;
+      background-size: cover;
+    }
+    .col-3{
+      float: right;
+    }
+
+    .button2 {background-color: #008CBA;}

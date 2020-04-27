@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+  <title>Bootstrap 4 Website Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+  <link rel=¨stylesheet¨ type=¨text/css¨ href=¨style.css¨>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+  <link rel=¨stylesheet¨ type=¨text/css¨ href=¨style2.css¨>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+
+  <style> </style>
+  <style>
+    .footer {
+      position: fixed;
+      left: 0;
+      bottom: 0;
+      width: 100%;
+      background-color: rgb(0, 2, 3);
+      color: white;
+      text-align: center;
+    }
+
+    .carousel-caption {
+      margin-top: 100px;
+      margin-bottom: 150px;
+      margin-right: 150px;
+      margin-left: 80px;
+    }
+
+    .gallery {
+      margin: 5px;
+      border: 1px solid #ccc;
+      float: left;
+      width: 180px;
+    }
+
+    .gallery:hover {
+      border: 1px solid #777;
+    }
+
+    .gallery img {
+      width: 100%;
+      height: auto;
+    }
+
+    .desc {
+      padding: 15px;
+      text-align: center;
+    }
+  </style>
+</head>
+
+<body>
+
+
+  <!-- Insert Carousel with multiple images style.css-->
+  <div id="carouselIndicators" class="carousel slide" data-ride="carousel">
+    <ol class="carousel-indicators">
+      <li data-target="#carouselIndicators" data-slide-to="0" class="active"></li>
+      <li data-target="#carouselIndicators" data-slide-to="1"></li>
+      <li data-target="#carouselIndicators" data-slide-to="2"></li>
+    </ol>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="slide1.jpg" class="d-block w-100 h-25" alt="Marketing">
+        <div class="carousel-caption">
+          <h3>Marketing</h3>
+          <p>We had such a great time in LA!</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="slide 3.jpg" class="d-block w-100 h-25" alt="Web Developement">
+        <div class="carousel-caption">
+          <h3>Creative Developement</h3>
+          <p>Bringing Ideas To Life </p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="slide 3.jpg" class="d-block w-100 h-25" alt="Social Media">
+        <div class="carousel-caption">
+          <div>
+            <h3>Web Development</h3>
+            <p>Fullstack Web Developement </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+  </div>
+
+  <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+    <a class="navbar-brand" href="#" font-family: rageitalic>RpJ</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="collapsibleNavbar">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link" href="index2.html">Bobby</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="Portfolio.html">Portfolio</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="githubprojects.html">Sites</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="contact.html">Contact</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  <container>
+    <div class="container" grey style="margin-top:30px">
+      <div class="row">
+        <div class="col-3" float: right;>
+          <h3>Learn More</h3>
+          <p>Invest in another Asset</p>
+          <ul class="nav nav-pills flex-column">
+            <li class="nav-item">
+              <a class="nav-link active" href="#">Active</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="Portfolio.html">See My Work</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Add Me to the Team</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled" href="#" alt="Comming Soon"> Website</a>
+            </li>
+            
+              <div class="icon-bar">
+                <a href="https://www.facebook.com/bobby.philizaire.88" class="facebook"><i
+                    class="fa fa-facebook"></i></a>
+                <a href="https://www.linkedin.com/in/robertphilizaire/" class="linkedin"><i
+                    class="fa fa-linkedin"></i></a>
+                <a href="https://github.com/BobbyBlu14" class="github"><i class="fa fa-github"></i></a>
+            
+            </li>
+
+
+
+          </ul>
+        </div>
+        <div class="col-sm-9">
+
+          <h1 font-family : Rage Italic, Times, serif;>Bobby's Portfolio</h1>
+
+          <!------ image gallery starts here style2.css ---------->
+
+          <div id="portBox">
+            <h2 alt="Bobby's Portfolio(Robert Philizaire)">Logo's</h2>
+            <div class="gallery">
+              <a target="_blank"
+                href="https://dm2305files.storage.live.com/y4pHBJhaX7CsNDN7m-3vlo1AYVwm3-5RaMsjm97rPSP36wbgmGtHv1o0u4dMMeHI3tkUHhunbbEXyx9rtD_H1jcY_wY05gF7mv7QMadNTK7_miswsfErB54R-tJeeFjEUoELJLfH7IHvmXtgS8Dj2TdTphEZ6emskniDGXrmUiM99E3S2Z222RmbWoPkkZsBGDr/fit-man-and-woman_final-file_26042018.jpg?psid=1&width=940&height=807">
+                <img
+                  src="https://dm2305files.storage.live.com/y4pHBJhaX7CsNDN7m-3vlo1AYVwm3-5RaMsjm97rPSP36wbgmGtHv1o0u4dMMeHI3tkUHhunbbEXyx9rtD_H1jcY_wY05gF7mv7QMadNTK7_miswsfErB54R-tJeeFjEUoELJLfH7IHvmXtgS8Dj2TdTphEZ6emskniDGXrmUiM99E3S2Z222RmbWoPkkZsBGDr/fit-man-and-woman_final-file_26042018.jpg?psid=1&width=940&height=807"
+                  alt="CTGF logo" width="25%" height="25%">
+              </a>
+              <div class="desc">CHALLENGE TO GET FIT</div>
+            </div>
+
+            <div class="gallery">
+              <a target="_blank"
+                href=https://dm2305files.storage.live.com/y4p58Ar2IFeLka_lyjbbys-uAgSMkKaVB2yAbvfK78R4svVC7cX328y-RgktR9WSNT1kDeCPWgvXzZ0ux_rb8gjbVgTE5Kx53nRC8qnqVx9yWzN7fQWyix9YZM7Eogr-VVKErhuyjlZ2WYPHpDgdGVGbjp9HJPk6Qu5LIuN2XPpfjfRd7QGB90ZFwdFA-JLf-1h/Morganix%20Logo%20Batch%201.jpg?psid=1&width=807&height=807&cropMode=center">
+                <img
+                  src="https://dm2305files.storage.live.com/y4p58Ar2IFeLka_lyjbbys-uAgSMkKaVB2yAbvfK78R4svVC7cX328y-RgktR9WSNT1kDeCPWgvXzZ0ux_rb8gjbVgTE5Kx53nRC8qnqVx9yWzN7fQWyix9YZM7Eogr-VVKErhuyjlZ2WYPHpDgdGVGbjp9HJPk6Qu5LIuN2XPpfjfRd7QGB90ZFwdFA-JLf-1h/Morganix%20Logo%20Batch%201.jpg?psid=1&width=807&height=807&cropMode=center"
+                  alt="morganix skincare logo" width="35%" height="35%">
+              </a>
+              <div class="desc">Morganix - "All Natural Organic Skin Care</div>
+            </div>
+            <div class="row">
+              <div class="gallery">
+                <a target="_blank" href="logo hyimage 1.png">
+                  <img src="logo hyimage 1.png" alt="Northern Lights" width="25%" height="25%">
+                </a>
+                <div class="desc">Add a description of the image here</div>
+              </div>
+
+            </div>
+            <br>
+            <div>
+
+              <h1 alt="Bobby's Portfolio(Robert Philizaire)">Promotions</h1>
+              <div class="gallery">
+                <a target="_blank"
+                  href="https://dm2305files.stsorage.live.com/y4phobA3uK7nLjjHxiRRTl5mmiXDczP_mXYY2gzVeEZV3qA-YuP9hY_I6QdzQ-Fi0yMtTenM0MbTDyiOldcBJoi484ULS6jBipf_GXOkTj87qyrdpvv7WRpVF5HIFdicegnpo-QjG_04b9x7nnbPFvLjuUyo-EPMjEbU2tv_4-ez_pfEmxpxzv5NAY_zCgC2GtM/CTGF%20Week%202%20-%20Copy.png?psid=1&width=549&height=807">
+                  <img
+                    src="https://dm2305files.storage.live.com/y4phobA3uK7nLjjHxiRRTl5mmiXDczP_mXYY2gzVeEZV3qA-YuP9hY_I6QdzQ-Fi0yMtTenM0MbTDyiOldcBJoi484ULS6jBipf_GXOkTj87qyrdpvv7WRpVF5HIFdicegnpo-QjG_04b9x7nnbPFvLjuUyo-EPMjEbU2tv_4-ez_pfEmxpxzv5NAY_zCgC2GtM/CTGF%20Week%202%20-%20Copy.png?psid=1&width=549&height=807"
+                    alt="CHALLENGE to get git flyer ex " width="50%" height="50%">
+                </a>
+                <div class="desc">CTGF - flyer </div>
+              </div>
+
+              <div class="gallery">
+                <a target="_blank"
+                  href="https://dm2305files.storage.live.com/y4pCjcqM3-TuFq0wvix3fDdOovP0NgcpXDiPbE4aLVuoSoWA4y-MZuPGGuAainyxYe45vsM6ly6zwwbvz024rGXkixH9ezzkk77wXuniRWlD8MYZM-yMSeOcU4Zr34Hkp74oMMAqNKHquBDpKB4Fm0hTzNT3O3BpMYlMFMPvW5a7zNyLNeMgKfgi2XKplr-oVdP/Morganix%20Bc.jpg?psid=1&width=474&height=807">
+                  <img
+                    src="https://dm2305files.storage.live.com/y4pCjcqM3-TuFq0wvix3fDdOovP0NgcpXDiPbE4aLVuoSoWA4y-MZuPGGuAainyxYe45vsM6ly6zwwbvz024rGXkixH9ezzkk77wXuniRWlD8MYZM-yMSeOcU4Zr34Hkp74oMMAqNKHquBDpKB4Fm0hTzNT3O3BpMYlMFMPvW5a7zNyLNeMgKfgi2XKplr-oVdP/Morganix%20Bc.jpg?psid=1&width=474&height=807"
+                    alt="morganix skincare logo" width="35%" height="35%">
+                </a>
+                <div class="desc">Morganix - "All Natural Organic Skin Care</div>
+              </div>
+
+              <div class="gallery">
+                <a target="_blank" href="hy brochure 1.png">
+                  <img src="hy brochure 1.png" alt="Northern Lights" width="25%" height="25%">
+                </a>
+                <div class="desc">hyImageTech Brochure</div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+        <br>
+
+      </div>
+    </div>
+    </div>
+
+    </div>
+    </div>
+
+
+  </container>
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+    integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+    crossorigin="anonymous"></script>
+  <footer class="footer mt-auto py-2">
+    <div class="container">
+      <span class="footer">Brought to you by Bobby</span>
+    </div>
+
+  </footer>
+
+
+  <script src="script.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+
+</body>
+
+</html>

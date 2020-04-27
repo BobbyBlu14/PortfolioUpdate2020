@@ -1,0 +1,26 @@
+
+      body {
+        font-family: sans-serif;
+    }
+    #container {
+        background: #DDD;
+        max-width: 100%;
+    }
+    .item {
+        width: 100%;
+        float: left;
+    }
+    .item img {
+        display: block;
+        width: 100%;
+    }
+    button {
+        font-size: 18px;
+    }
+    .container2 {
+        width:100%;
+    }
+    
+    .col-3{
+        position:sticky
+    }
